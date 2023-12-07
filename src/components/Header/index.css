@@ -1,0 +1,4 @@
+/* Quando o mouse passa por cima do contêiner relativo, ajusta a opacidade do input para 1 */
+.teste:hover input {
+  opacity: 1;
+}

@@ -51,6 +51,12 @@ export function Header() {
       </div>
 
       <div className="flex flex-row justify-center items-center">
+        <input
+          type="text"
+          placeholder="Search"
+          name="search"
+          className="mr-4 bg-transparent border border-gray-300 rounded-md p-2 focus:outline-none focus:border-red-600"
+        />
         <IoIosSearch className="w-6 h-6 mr-12 cursor-pointer" />
         <button className="relative bg-red-600 text-sm text-white rounded-xl w-32 h-10 overflow-hidden">
           <Link
